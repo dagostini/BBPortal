@@ -14,21 +14,23 @@ BBPortal is a library that will enable you to pass data between your targets and
 var portal: BBPortalProtocol = BBPortal(withGroupIdentifier: "your.group.identifier.goes.here", andPortalID: "id.for.this.portal")
 
 // Send data
-portal.send(data: ["key": "What ever data you want"]) { (error) in
-if let anError = error {
-print("Send failed with error: ", anError)
-}
+portal.send(data: ["key": "What ever data you want"]) { 
+    (error) in
+
+    if let anError = error {
+        print("Send failed with error: ", anError)
+    }
 }
 
 // Receive data
 portal.onDataAvailable = {
-(data) in
+    (data) in
 
-guard let dict = data as? [String: Any?] else {
-return
-}
+    guard let dict = data as? [String: Any?] else {
+        return
+    }
 
-print("I received some data through the portal: ", dict)
+    print("I received some data through the portal: ", dict)
 }
 ```
 

@@ -1,0 +1,6 @@
+framework module BBPortal {
+  umbrella header "BBPortal-umbrella.h"
+
+  export *
+  module * { export * }
+}

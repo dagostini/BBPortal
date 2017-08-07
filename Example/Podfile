@@ -1,0 +1,6 @@
+use_frameworks!
+target 'BBPortal_Tests' do
+  pod 'BBPortal', :path => '../'
+  pod 'DAFileMonitor'
+  
+end

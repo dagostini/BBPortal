@@ -1,0 +1,6 @@
+framework module DAFileMonitor {
+  umbrella header "DAFileMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

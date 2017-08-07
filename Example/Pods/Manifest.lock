@@ -1,0 +1,20 @@
+PODS:
+  - BBPortal (0.1.0):
+    - DAFileMonitor
+  - DAFileMonitor (0.1.0)
+
+DEPENDENCIES:
+  - BBPortal (from `../`)
+  - DAFileMonitor
+
+EXTERNAL SOURCES:
+  BBPortal:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BBPortal: d798936850005bebe18be2100016ff24fca1403a
+  DAFileMonitor: ce0caef3fc2ccfb245f6d92532a567387b9d0adf
+
+PODFILE CHECKSUM: a0207ea9989da901aa1aef777860e1bed8dac92f
+
+COCOAPODS: 1.2.1

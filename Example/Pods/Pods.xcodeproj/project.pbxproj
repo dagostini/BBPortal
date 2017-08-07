@@ -11,7 +11,6 @@
 		10B1B178E0E8A3BE6006D87E285DADAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D15DDF495BFCA6EA52C69044323F12D /* Foundation.framework */; };
 		64E5EBB6771B1632D7F1AE4EB09A59BD /* Pods-BBPortal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D3A47C9D76BD9D3D54CB9B9D7EF0C3 /* Pods-BBPortal_Tests-dummy.m */; };
 		6EC6445B69B9162CCF9475170DFE11A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D15DDF495BFCA6EA52C69044323F12D /* Foundation.framework */; };
-		7719F6E01F38C88100025096 /* DAFileMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8A95917336AD3A2235BBEC839AC1DF /* DAFileMonitor.swift */; };
 		8CC9B51BD8602C87D6FEC9D3E58B1984 /* DAFileMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C743BB4F1E8BBA5531999F36924DF60C /* DAFileMonitor.framework */; };
 		AAEFDA10FE833ABBEB95CAA9CC9518B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D15DDF495BFCA6EA52C69044323F12D /* Foundation.framework */; };
 		C1E4AB890A193D397A9DFE70EC131A9A /* DAFileMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B99E15AAB241F43A1D291267A6D1161 /* DAFileMonitor-dummy.m */; };
@@ -47,26 +46,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033F7CE97DAC336945C1E04486D49C5C /* BBPortal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BBPortal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		033F7CE97DAC336945C1E04486D49C5C /* BBPortal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BBPortal.framework; path = BBPortal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B99E15AAB241F43A1D291267A6D1161 /* DAFileMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DAFileMonitor-dummy.m"; sourceTree = "<group>"; };
 		18D3A47C9D76BD9D3D54CB9B9D7EF0C3 /* Pods-BBPortal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBPortal_Tests-dummy.m"; sourceTree = "<group>"; };
-		263B2455554847CED17A230A241BBDB4 /* DAFileMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DAFileMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		263B2455554847CED17A230A241BBDB4 /* DAFileMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DAFileMonitor.framework; path = DAFileMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3034C2B8D4530A990B59B358EECC1012 /* BBPortal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BBPortal-umbrella.h"; sourceTree = "<group>"; };
 		309876E9FEF61A087AC98E2D862EA126 /* DAFileMonitor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DAFileMonitor.xcconfig; sourceTree = "<group>"; };
-		3EFDB8A95E15BFD0EC40F53C6F8E6D29 /* Pods_BBPortal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBPortal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EFDB8A95E15BFD0EC40F53C6F8E6D29 /* Pods_BBPortal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BBPortal_Tests.framework; path = "Pods-BBPortal_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FA1A694B26D0A5666813A750FE431A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60AB2BAA8A84FB7EED9E8B80BAC3073E /* Pods-BBPortal_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBPortal_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		62BEFB6896AE48574EE3FAEF93EA470B /* BBPortal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BBPortal.xcconfig; sourceTree = "<group>"; };
-		66F455696E8668A39BF9497FDEFFF7E9 /* DAFileMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DAFileMonitor.modulemap; sourceTree = "<group>"; };
+		66F455696E8668A39BF9497FDEFFF7E9 /* DAFileMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DAFileMonitor.modulemap; sourceTree = "<group>"; };
 		671715D7F7C13E2C4843E60B818D3060 /* DAFileMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DAFileMonitor-prefix.pch"; sourceTree = "<group>"; };
 		6AD50C2DFAF6177C868D99A8975446CA /* Pods-BBPortal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBPortal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6ED20A6DF582190F02159FF6E4E7515B /* Pods-BBPortal_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BBPortal_Tests-resources.sh"; sourceTree = "<group>"; };
 		7CFD1B54EC134CC41496DB6B77909EDC /* Pods-BBPortal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBPortal_Tests-umbrella.h"; sourceTree = "<group>"; };
 		7D15DDF495BFCA6EA52C69044323F12D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		81BA77A60D2053F6FB2A8B8E14D92543 /* Pods-BBPortal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BBPortal_Tests.modulemap"; sourceTree = "<group>"; };
+		81BA77A60D2053F6FB2A8B8E14D92543 /* Pods-BBPortal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BBPortal_Tests.modulemap"; sourceTree = "<group>"; };
 		90538B19B6CFBA73B76FEC8F26D9F71C /* Pods-BBPortal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBPortal_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99912BC2B8EB2C3FD7C85CB7126E7390 /* BBPortal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BBPortal.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99912BC2B8EB2C3FD7C85CB7126E7390 /* BBPortal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BBPortal.modulemap; sourceTree = "<group>"; };
 		9F45776D8C7C2E4B7410E72EE9BBA0CA /* Pods-BBPortal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBPortal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B11EE9DC7501A2162F784D380EC2B9AD /* Pods-BBPortal_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBPortal_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B24F3DD2B1993CD55B76F11F087C7EE7 /* BBPortal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BBPortal-dummy.m"; sourceTree = "<group>"; };
@@ -121,6 +120,7 @@
 			children = (
 				D16E031837084E4B140CC28BE8429957 /* Classes */,
 			);
+			name = BBPortal;
 			path = BBPortal;
 			sourceTree = "<group>";
 		};
@@ -215,6 +215,7 @@
 				DB8A95917336AD3A2235BBEC839AC1DF /* DAFileMonitor.swift */,
 				4D20BC2654FABE381CAB68240DAC6C7B /* Support Files */,
 			);
+			name = DAFileMonitor;
 			path = DAFileMonitor;
 			sourceTree = "<group>";
 		};
@@ -223,6 +224,7 @@
 			children = (
 				C923C86EBE35CB053E6BCC020EDBA7C7 /* BBPortal.swift */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -386,7 +388,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7719F6E01F38C88100025096 /* DAFileMonitor.swift in Sources */,
 				C4D0C3385521BF7013F0E925B138517C /* BBPortal-dummy.m in Sources */,
 				FBC76EA699CD8DD3E5C2F03C95E8698B /* BBPortal.swift in Sources */,
 			);

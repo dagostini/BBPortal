@@ -1,7 +1,7 @@
 PODS:
   - BBPortal (0.1.0):
     - DAFileMonitor
-  - DAFileMonitor (0.1.0)
+  - DAFileMonitor (0.1.1)
 
 DEPENDENCIES:
   - BBPortal (from `../`)
@@ -12,8 +12,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BBPortal: d798936850005bebe18be2100016ff24fca1403a
-  DAFileMonitor: ce0caef3fc2ccfb245f6d92532a567387b9d0adf
+  BBPortal: 9a18b2961e0ac759e5ec3920cfb6b6de249c2165
+  DAFileMonitor: fd59e446e6fa38939abfe66b911a15d977f04c62
 
 PODFILE CHECKSUM: a0207ea9989da901aa1aef777860e1bed8dac92f
 

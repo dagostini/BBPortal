@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import DAFileMonitor
 
 public protocol BBPortalProtocol {
     func send(data: Any, onCompleted: ((NSError?) -> ())?)
@@ -79,7 +80,6 @@ open class BBPortal: BBPortalProtocol
         guard let filePath = fileURL()?.path else {
             return
         }
-        
         self.fileMonitor = DAFileMonitor(withFilePath: filePath)
         self.fileMonitor?.onFileEvent = {
             [weak self] in

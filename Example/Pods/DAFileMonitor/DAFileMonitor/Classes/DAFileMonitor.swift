@@ -26,7 +26,7 @@ open class DAFileMonitor {
         }
     }
     
-    init?(withFilePath path: String, observeEvent event: DispatchSource.FileSystemEvent = .write, queue: DispatchQueue = DispatchQueue.global(), createFile create: Bool = true) {
+    public init?(withFilePath path: String, observeEvent event: DispatchSource.FileSystemEvent = .write, queue: DispatchQueue = DispatchQueue.global(), createFile create: Bool = true) {
         self.filePath = path
         self.fileSystemEvent = event
         self.dispatchQueue = queue

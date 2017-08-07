@@ -40,12 +40,12 @@ BBPortal is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "BBPortal"
+pod 'BBPortal'
 ```
 
 ## Author
 
-dagostini, dejan.agostini@gmail.com
+Dejan Agostini, dejan.agostini@gmail.com
 
 ## License
 

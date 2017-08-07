@@ -29,7 +29,7 @@ open class BBPortal: BBPortalProtocol
     
     // MARK: - Initialization
     
-    init(withGroupIdentifier group: String, andPortalID portal: String)
+    public init(withGroupIdentifier group: String, andPortalID portal: String)
     {
         self.groupID = group
         self.portalID = portal

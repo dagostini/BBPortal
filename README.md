@@ -6,7 +6,11 @@
 
 ## Description
 
-BBPortal is a library that will enable you to pass data between your targets and applications (excluding the watch target). It's using App Groups in the background to save data in the shared container and another library (DAFileMonitor) is used to listen to changes on the file. You can create as many portals as you want. You can give your portals different IDs or you can give them all the same ID. When you push data through your portal, all other portals with the same ID will receive the data.
+BBPortal is a library that will enable you to pass data between your targets and applications (excluding the watch target). It's using App Groups in the background to save data in the shared container and another library - [DAFileMonitor](https://github.com/dagostini/DAFileMonitor) - is used to listen to changes on the file. You can create as many portals as you want. You can give your portals different IDs or you can give them all the same ID. When you push data through your portal, all other portals with the same ID will receive the data.
+
+In the example below, you can see two apps controlling each other by passing data in real-time:
+
+![BBPortal_usage_med2](./docs/BBPortal_usage_med2.gif)
 
 ## Usage
 

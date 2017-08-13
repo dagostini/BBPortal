@@ -12,6 +12,8 @@ In the example below, you can see two apps controlling each other by passing dat
 
 ![BBPortal_usage_med2](./docs/BBPortal_usage_med2.gif)
 
+You can read more about this library on my blog: http://agostini.tech/2017/08/13/sharing-data-between-applications-and-extensions-using-app-groups/
+
 ## Usage
 
 ```swift

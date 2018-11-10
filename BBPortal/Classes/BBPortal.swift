@@ -68,8 +68,12 @@ open class BBPortal: BBPortalProtocol
                     let dictData = NSKeyedArchiver.archivedData(withRootObject: dictToSave)
                     try? dictData.write(to: url)
                     
-                    onCompleted?(error)
+                    onCompleted?(nil)
                 })
+                
+                if let error = error {
+                    onCompleted?(error)
+                }
             }
         }
     }
